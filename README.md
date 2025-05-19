@@ -35,3 +35,13 @@ CREATE TABLE `planner_users` (
   UNIQUE KEY `username` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
 ```
+
+Créer utilisateur administrateur : 
+
+```
+INSERT INTO planner_users (username, password, role) VALUES (
+  'admin', /*user=admin*/
+  'YourSecurePassword',
+  'admin'/*role=admin*/
+);
+```
