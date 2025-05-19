@@ -1,0 +1,8 @@
+/vendor/
+/node_modules/
+config.php
+.env
+*.log
+.env.php
+esrzerdertrgdfge/
+/esrzerdertrgdfge/
